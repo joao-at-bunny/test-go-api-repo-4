@@ -41,9 +41,9 @@ func main() {
 func rootHandler(w http.ResponseWriter, r *http.Request) {
 	endpoints := map[string]any{
 		"endpoints": []map[string]string{
-			{"method": "GET", "path": "/kv/{key}", "description": "Get a value by key"},
-			{"method": "PUT", "path": "/kv/{key}", "description": "Set a value by key"},
-			{"method": "DELETE", "path": "/kv/{key}", "description": "Delete a value by key"},
+			{"method": "GET", "path": "/kv/{key}", "description": "Get a value by key!"},
+			{"method": "PUT", "path": "/kv/{key}", "description": "Set a value by key!"},
+			{"method": "DELETE", "path": "/kv/{key}", "description": "Delete a value by key!"},
 		},
 	}
 
